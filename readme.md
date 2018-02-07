@@ -1,4 +1,11 @@
 
+Warning:
+
+* do not install OpenCV4Tegra V2.4 for TX2, we will use OpenCV3
+* for TX2 you may need to flash it tiwce, one just flash the OS, the other install cuda
+* if the tx1/tx2 cannot boot the GUI, but shut down after finish loading BIOS, try to change a more powerful power source
+
+
 ## Setup and Download files
 
 1. Install Jetpack 3.1 and Download the system files.
@@ -22,6 +29,7 @@ sudo ./small-USB3/install.sh
 ```
 
 ## Flash the TX2.
+
 1. Connect the TX2 and Carrier (or Dev-Kit) to the computer via USB
      Following the instructions in the appropriate manual.
 
@@ -33,12 +41,16 @@ sudo ./small-USB3/install.sh
 ```
 cd 64_TX2/Linux_for_Tegra_tx2
 sudo ./flashTX2.sh
-
 ```
 
 5. Once the flashing has completed, the TX2 will reboot 
 
+* username: nvidia
+
+* password: nvidia
+
 ## Install CUDA.
+
 
 1. Install Jetpack 3.1 and Download the files.
 
