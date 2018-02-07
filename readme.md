@@ -60,11 +60,9 @@ sudo ./flashTX2.sh
 ./JetPack-L4T-3.1-linux-x64.run
 ```
 
-<p align="center">
-  <img src="figures/0.png" width=450 height=330>
-  <img src="figures/1.png" width=450 height=330>
-  <img src="figures/3.png" width=450 height=330>
-</p>
+<img src="figures/0.png" width=450 height=330>
+<img src="figures/1.png" width=450 height=330>
+<img src="figures/3.png" width=450 height=330>
 
 wait for downloading and extracting.
 
@@ -86,9 +84,7 @@ sudo arp-scan --interface=eth0 192.168.1.0/24 | grep NVIDIA
 
 then 
 
-<p align="center">
-  <img src="figures/4.png" width=450 height=330>
-</p>
+<img src="figures/4.png" width=450 height=330>
 
 wait for install.
 
