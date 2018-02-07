@@ -1,3 +1,4 @@
+# Setup Moniforld2-TX2
 
 Warning:
 
@@ -25,7 +26,8 @@ wait for downloading and extracting.
 2. Install small TX2 configure with root:
 
 ```
-sudo ./small-USB3/install.sh
+cd small-USB3
+sudo ./install.sh
 ```
 
 ## Flash the TX2.
