@@ -18,7 +18,7 @@ wait for downloading and extracting.
 2. Install small TX2 configure with root:
 
 ```
-	    sudo ./small-USB3/install.sh
+sudo ./small-USB3/install.sh
 ```
 
 ## Flash the TX2.
